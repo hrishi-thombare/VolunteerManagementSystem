@@ -60,8 +60,15 @@ public class LoginActivity extends AppCompatActivity {
         // Send data
         try
         {
+            Context context = getApplicationContext();
+            int duration = Toast.LENGTH_SHORT;
+
+            String login_url = context.getResources().getString(R.string.server_domain2) + "/login.php";
             // Defined URL  where to send data
-            URL url = new URL("http://192.168.0.114:8082/VMS/login.php");
+            URL url = new URL(login_url);
+            String text = url.toString();
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
 
             // Send POST data request
 
@@ -74,6 +81,7 @@ public class LoginActivity extends AppCompatActivity {
             // Get the server response
 
             reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+
             StringBuilder sb = new StringBuilder();
             String line = null;
 
@@ -83,13 +91,6 @@ public class LoginActivity extends AppCompatActivity {
                 // Append server response in string
                 sb.append(line + "\n");
             }
-
-            Context context = getApplicationContext();
-            CharSequence text = line;
-            int duration = Toast.LENGTH_SHORT;
-
-            Toast toast = Toast.makeText(context, text, duration);
-            toast.show();
         }
         catch(Exception ex)
         {

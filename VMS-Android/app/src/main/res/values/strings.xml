@@ -5,6 +5,9 @@
     <string name="get_started">Get Started</string>
     <string name="Term_conditions">By continuing, you accept the Terms of Uses and Privacy Policy</string>
 
+    <!--Server name-->
+    <string name="server_domain1">http://192.168.0.124:8082/VMS</string>
+    <string name="server_domain2">http://10.0.2.2:8080/VMS</string>
 
     <!--Start initializing for second activity-->
 
