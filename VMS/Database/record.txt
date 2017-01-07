@@ -1,0 +1,32 @@
+INSERT
+INTO
+  `user_data`(
+    `id`,
+    `name`,
+    `DOB`,
+    `gender`,
+    `email`,
+    `contact`,
+    `city`,
+    `village`,
+    `interest_points`,
+    `engagment`,
+    `role`,
+    `username`,
+    `password`
+  )
+VALUES(
+  '1',
+  'HRISHIKESH THOMBARE',
+  '1992-07-08',
+  'M',
+  'hrishikeshthombare@gmail.com',
+  '7261920468',
+  'Panvel',
+  'Hatnoli',
+  'pets, environment',
+  NULL,
+  'Admin',
+  'hrishikesh',
+  '12345678'
+);
