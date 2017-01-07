@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">VMS</string>
+    <string name="intro_screen">IntroScreen</string>
+    <string name="sign_in">Sign_in</string>
+    <string name="get_started">Get Started</string>
+    <string name="Term_conditions">By continuing, you accept the Terms of Uses and Privacy Policy</string>
+
+
+    <!--Start initializing for second activity-->
+
+    <string name="almost_done">Almost Done</string>
+    <string name="create_account_lbl">Create an account to save your work and explore.</string>
+    <string name="name_lbl">Name</string>
+    <string name="first_edittxt">First Name</string>
+    <string name="last_edittxt">Last Name</string>
+    <string name="email_lbl">Email</string>
+    <string name="email_edittxt">Your email address</string>
+    <string name="username_lbl">Username</string>
+    <string name="username_edittxt">The name you will use to login.</string>
+    <string name="password_lbl">Password</string>
+    <string name="password_edittxt">More than 6 Numbers.</string>
+    <string name="gender_lbl">Gender</string>
+    <string name="female_radio">Female</string>
+    <string name="male_radio">Male</string>
+    <string name="date_of_birth_lbl">Enter your date of birth</string>
+    <string name="submit_btn">Submit</string>
+    <string name="make_my_account">Make my account!.</string>
+
+    <!-- Start constant for login activity-->
+
+    <string name ="login_name">Login</string>
+    <string name="login_btn">Login</string>
+    <string name="login_username">Enter your username</string>
+    <string name="login_password">Enter your password</string>
+
+
+    <!-- Start constant for interest selection activity -->
+
+    <string name="interest_question">Hello, What interests you?</string>
+    <string name="choose_statement">Pick some topics to follow.</string>
+    <string name="creativity_opt">Creativity</string>
+    <string name="adventurous_opt">Adventurous</string>
+    <string name="learning_opt">Learning</string>
+    <string name="teaching_opt">Teaching</string>
+    <string name="cycling_opt">Cycling</string>
+    <string name="trekking_opt">Trekking</string>
+    <string name="marathon_opt">Marathon</string>
+    <string name="magazine_opt">Magazine</string>
+    <string name="reading_opt">Reading</string>
+    <string name="content_opt">Content Writing</string>
+    <string name="photography_opt">Photography</string>
+    <string name="technology_opt">Technology</string>
+    <string name="leadership_opt">Leadership</string>
+    <string name="science_opt">Science</string>
+    <string name="mathematics_opt">Mathematics</string>
+    <string name="history_opt">History</string>
+    <string name="exercise_opt">Exercise</string>
+    <string name="environment_opt">Environment</string>
+    <string name="health_opt">Health</string>
+    <string name="game_opt">Games</string>
+    <string name="field_opt">Field Work</string>
+    <string name="public_opt">Public Speaking</string>
+    <string name="emergency_help_opt">Emergency Hellp</string>
+    <string name="music_opt">Music</string>
+    <string name="drought_opt">Drought</string>
+    <string name="research_opt">Research</string>
+    <string name="rural_dev_opt">Rural Developtment</string>
+    <string name="emergency_opt">Emergency Help</string>
+    <string name="spiritual_opt">Spiritual</string>
+    <string name="organization_opt">Organization</string>
+    <string name="next_btn">Next</string>
+
+
+</resources>
