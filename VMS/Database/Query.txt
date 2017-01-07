@@ -1,0 +1,31 @@
+
+CREATE database vms_db;
+USE vms_db;
+
+ CREATE TABLE `user_data`(
+    `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `name` VARCHAR(50) NOT NULL,
+    `DOB` DATETIME,
+    `gender` VARCHAR(1) NOT NULL,
+    `email` VARCHAR(50) NOT NULL,
+    `contact` VARCHAR(10) NOT NULL,
+    `city` VARCHAR(50),
+    `village` VARCHAR(50),
+    `interest_points` TEXT,
+    `engagment` TEXT,
+    `role` VARCHAR(20),
+    `username` VARCHAR(20) NOT NULL,
+    `password` VARCHAR(20) NOT NULL
+  );
+CREATE TABLE `Event_info`(
+  `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `name` TEXT NOT NULL,
+  `date_event` DATETIME NOT NULL,
+  `no_of_participants` INTEGER NOT NULL,
+  `status` VARCHAR(20) NOT NULL,
+  `conducted_by` VARCHAR(50) NOT NULL,
+  `description` TEXT,
+  `photo` VARCHAR(100),
+  `budget` INTEGER,
+  `category` VARCHAR(30)
+);
